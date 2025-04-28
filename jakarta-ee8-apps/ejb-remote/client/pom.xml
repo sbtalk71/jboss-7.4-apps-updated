@@ -23,12 +23,7 @@
 	<dependencies>
 		<!--
 		https://mvnrepository.com/artifact/org.wildfly/wildfly-ejb-client-bom -->
-		<dependency>
-			<groupId>org.wildfly</groupId>
-			<artifactId>wildfly-ejb-client-bom</artifactId>
-			<version>21.0.2.Final</version>
-			<type>pom</type>
-		</dependency>
+		
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>ejb-remote-server-side</artifactId>
