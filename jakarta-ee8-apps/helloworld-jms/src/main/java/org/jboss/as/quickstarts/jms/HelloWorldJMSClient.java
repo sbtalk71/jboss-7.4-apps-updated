@@ -35,11 +35,11 @@ public class HelloWorldJMSClient {
     private static final String DEFAULT_CONNECTION_FACTORY = "jms/RemoteConnectionFactory";
     private static final String DEFAULT_DESTINATION = "jms/queue/test";
     private static final String DEFAULT_MESSAGE_COUNT = "1";
-    private static final String DEFAULT_USERNAME = "quickstartUser";
-    private static final String DEFAULT_PASSWORD = "quickstartPwd1!";
+    private static final String DEFAULT_USERNAME = "demo";
+    private static final String DEFAULT_PASSWORD = "welcome1";
     private static final String INITIAL_CONTEXT_FACTORY = "org.wildfly.naming.client.WildFlyInitialContextFactory";
-    private static final String PROVIDER_URL = "http-remoting://127.0.0.1:8080";
-
+    //private static final String PROVIDER_URL = "remote+http://127.0.0.1:8080"; //valid
+    private static final String PROVIDER_URL = "http-remoting://127.0.0.1:8080,http-remoting://127.0.0.1:8081"; //HA
     public static void main(String[] args) {
 
         Context namingContext = null;
@@ -86,6 +86,7 @@ public class HelloWorldJMSClient {
                 }
             }
         } catch (NamingException e) {
+        	e.printStackTrace();
             log.severe(e.getMessage());
         } finally {
             if (namingContext != null) {
