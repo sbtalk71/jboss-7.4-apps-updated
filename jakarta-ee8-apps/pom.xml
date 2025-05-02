@@ -28,6 +28,7 @@
   	<module>helloworld-jms</module>
   	<module>helloworld-mdb</module>
   	<module>logging</module>
+  	<module>batch-processing</module>
   </modules>
   
   <build>

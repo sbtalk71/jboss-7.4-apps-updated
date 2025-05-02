@@ -1,0 +1,11 @@
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\controller\BatchController.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\controller\JobData.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ChunkCheckpoint.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ContactsFormatter.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ContactsPersister.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\listener\JobListener.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\listener\PersistListener.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\RecordsReader.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\job\ReportBatchelet.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\model\Contact.java
+D:\github\jboss-7.4-apps-updated\jakarta-ee8-apps\batch-processing\src\main\java\org\jboss\as\quickstarts\batch\util\Resources.java
